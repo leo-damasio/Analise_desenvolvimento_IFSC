@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> Secundo exercicio </title>
+    <link rel="stylesheet" href="Exerc2.css">
+</head>
+<body>
+    <h1> Formulário em html5 - coleta de infotmações pessoais</h1>
+    <form action="Dados.php" >
+        <fieldset> 
+            <legend> Informações pessoais </legend>
+
+            <Label class="alinha"> Nome completo: </Label>
+            <input type="text" name="nome_do_usuario" autofocus placeholder="Seu nome aqui:">
+
+            <Label class="alinha"> Email: </Label>
+            <input type="email" name="email_do_usuario">
+
+            <Label class="alinha"> Data de nascimento: </Label>
+            <input type="date" name="nascimento">
+
+            <Label class="alinha"> Login: </Label>
+            <input type="text" name="Login_do_usuario"><label class="obrigatorio"> * </label><br>
+
+            <Label class="alinha"> Senha: </Label>
+            <input type="text" name="senha_do_usuario"><label class="obrigatorio"> * </label><br>
+
+            <label class="Faixa_etaria">Faixa etária</label><br>
+           
+            <input class="Faixa_etaria" type="radio" value="Menor ou igual a 18 anos" name="faixa_etaria_do_usuario">
+            <label>Menor ou igual a 18 anos</label><br>
+            
+            <input class="Faixa_etaria" type="radio" value="Maior de 18 anos" name="faixa_etaria_do_usuario" checked>
+            <label>Maior de 18 anos</label><br>
+
+        </fieldset>
+        <button> Efetuar cadastro </button> 
+
+    </form>
+
+
+
+</body>
+</html>

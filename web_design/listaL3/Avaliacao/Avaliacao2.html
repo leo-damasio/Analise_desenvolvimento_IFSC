@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> Secundo exercicio </title>
+    <link rel="stylesheet" href="Exerc2.css">
+</head>
+<body>
+    <h1> IFSC - CTDS - Dados cadastrais de alunos </h1>
+    <form action="Dados.php" >
+        <fieldset> 
+            <legend> Aluno - Dados pessoais </legend>
+
+            <Label class="alinha"> Nome completo: </Label>
+            <input type="text" name="nome_do_usuario" autofocus placeholder="Seu nome aqui:">
+
+            <Label class="alinha"> Email: </Label>
+            <input type="email" name="email_do_usuario">
+
+            <Label class="alinha"> Celular: </Label>
+            <input type="tel" name="celular">
+
+            <Label class="alinha"> Número de Matricula: </Label>
+            <input type="text" name="num_matricula">
+
+            <Label class="alinha"> Login do usuário: </Label>
+            <input type="text" name="Login_do_usuario">
+
+            <Label class="alinha"> Senha do usuário: </Label>
+            <input type="text" name="senha_do_usuario">
+        </fieldset>
+        <fieldset>
+            <legend> Aluno - Dados institucionais </legend>
+
+            <label> Selecione sua fase: </label> 
+            <select name="fase-curso">
+                <option selected> Primeira </option>
+                <option> Segunda </option>
+                <option> Terceira </option>
+            </select> <br> <br>
+
+
+            <label class="Numero_de_aulas_semanais"> Número de aulas semanais </label><br>
+           
+            <input class="Numero_de_aulas_semanais" type="radio" value="Menos de 20 aulas" name="Numero_de_aulas_semanais_do_usuario">
+            <label>Menos de 20 aulas</label>
+            
+            <input class="Numero_de_aulas_semanais" type="radio" value="Exatamente 20 aulas" name="Numero_de_aulas_semanais_do_usuario"checked>
+            <label>Exatamente 20 aulas</label>
+
+            <input class="Numero_de_aulas_semanais" type="radio" value="Mais de 20 aulas" name="Numero_de_aulas_semanais_do_usuario">
+            <label>Mais de 20 aulas</label><br><br>
+
+            <input type="checkbox" value="Mais de 20 aulas" name="Com_proj_integrador">
+            <label> Marque esta opção se já iniciou o projeto integrador </label>
+
+        </fieldset>
+        <button> Efetuar cadastro </button> 
+
+    </form>
+
+
+
+</body>
+</html>

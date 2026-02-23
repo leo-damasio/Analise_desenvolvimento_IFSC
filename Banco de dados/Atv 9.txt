@@ -1,0 +1,38 @@
+a) Listar todos os dados dos alunos, onde ind_conclusão = S
+select * from aluno where ind_conclusao="S";
+
+b) Listar todos os dados dos ex-alunos, onde ind_conclusão = S
+select * from ex_aluno where ind_conclusao="S";
+
+c) Listar todos os dados do aluno, onde nome = José
+select * from aluno where nome="José";
+
+d) Listar apenas os nomes do alunos
+select nome from aluno;
+
+e) Listar apenas os nomes e o endereço dos alunos
+select nome, endereco from aluno;
+
+f) Listar apenas os nomes e o endereço dos ex-alunos
+select nome, endereco from ex_aluno;
+
+g) Listar apenas os nomes e o endereço dos alunos, onde curso = 2A
+select nome, endereco from aluno where cod_curso = "2A";
+
+h) Listar apenas os nomes e o endereço dos ex-alunos, onde curso = 1A
+select nome, endereco from ex_aluno where cod_curso = "1A";
+
+i) Listar os nomes, telefone e o endereço dos alunos, onde curso = 1B
+select nome, telefone, endereco from aluno where cod_curso = "1B";
+
+j) Listar apenas os nomes, telefone dos alunos, onde ind_conclusão = N
+select nome, telefone from aluno where ind_conclusão = "N";
+
+k) Listar apenas os nomes, telefone dos ex-alunos, onde ind_conclusão = N
+select nome, telefone from ex_aluno where ind_conclusão = "N";
+
+l) Listar o código e descrição do curso onde código = 1B
+select cod_curso, descricao from curso where cod_curso = "1B";
+
+m) Listar o código e descrição do curso onde ano seja antes de 2003
+select cod_curso, descricao from curso where ano < 2003;

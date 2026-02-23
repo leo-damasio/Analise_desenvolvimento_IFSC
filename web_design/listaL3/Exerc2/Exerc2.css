@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+body
+{
+    background: #4e2521;
+}
+h1
+{
+    margin: 0;
+    text-align: center;
+    color: #D2AFAB;
+   
+    font-family: "Pixelify Sans";
+    font-size: xx-large;
+    margin-bottom: 40px;
+    border-bottom: 10px solid #773939;
+    background-color: #773939;
+    
+}
+fieldset
+{
+    margin: auto;
+    width: 50%;
+    color: #D2AFAB;
+    font-family: "Pixelify Sans";
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #723631;
+}
+.alinha
+{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+input, textarea, button
+{
+    background-color: #99635d;
+    color: #D2AFAB;
+    border-color: #4C2424;
+    font-family: "Pixelify Sans";
+    font-size: x-large;
+}
+::placeholder
+{
+    font: "Pixelify Sans";
+    color: #4C2424;
+}
+input[name=nome_do_usuario], [name=email_do_usuario], [name=nascimento], [name=Login_do_usuario], [name="senha_do_usuario"]
+{
+    width: 250px;
+}
+textarea
+{
+    resize: none;
+    width: 708px;
+    height: 100px;
+}
+button
+{
+    display: block;
+    margin-left: 43%;
+    margin-top: 40px;
+}
+.Faixa_etaria
+{
+    display: inline-block;
+    margin-left: 25%;
+}
+.obrigatorio
+{
+    color: black;
+    font-size: 30px;
+
+}

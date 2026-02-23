@@ -1,0 +1,66 @@
+/*criando banco de dados*/
+
+create database Escola;
+
+/*ativar o banco de dados*/
+
+use escola;
+
+/*criar tabelas*/
+
+create table aluno
+(
+Cod_aluno int not null,
+Rg Char(15) not null,
+Nome Char(60) not null,
+Sexo Char(1) not null,
+Endereco Char(200),
+Email Char(50),
+Telefone Char(11),
+primary key(Cod_Aluno)
+)
+engine InnoDB;
+
+Create table Disciplina
+(
+Cod_Discip int not null,
+Nome Char(20) not null, 
+Carga_hor int not null,
+Obs Char(100),
+Primary key(Cod_Discip)
+)
+engine InnoDB;
+
+create table Professor
+(
+Cod_prof int not null,
+Nome Char(50) not null,
+Salario Float,
+Endereco char(100),
+Email Char(50),
+Telefone Char(20),
+primary key(Cod_Prof)
+)
+engine InnoDB;
+
+create table Boletim
+(
+Cod_aluno int not null,
+Cod_Discip int not null,
+Cod_Prof int not null,
+Nota1 float,
+nota2 float,
+primary key(Cod_aluno, Cod_Discip),
+foreign key(Cod_aluno) references aluno(Cod_Aluno),
+foreign key(Cod_Discip) references Disciplina(Cod_Discip),
+foreign key(Cod_Prof) references Professor(Cod_Prof)
+)
+engine InnoDB;
+
+drop table aluno;
+drop table disciplina;
+drop table professor;
+
+select * from Aluno;
+
+/*inserção de dados*/

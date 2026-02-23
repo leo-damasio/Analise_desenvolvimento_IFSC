@@ -6,6 +6,13 @@ body {
   background-color: #ad5f4e;
 }
 
+h1 {
+  border-bottom: 3px solid #e2c799;
+  text-align: center;
+  color: #f2ecbe;
+  background-color: #9a3b3b;
+  margin: 0;
+}
 
 p
 {

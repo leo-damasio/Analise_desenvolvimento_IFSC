@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Analise_desenvolvimento_IFSC.iml" filepath="$PROJECT_DIR$/Analise_desenvolvimento_IFSC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarros/PrjLavaCarros.iml" filepath="$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarros/PrjLavaCarros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarrosA2/PrjLavaCarrosA2.iml" filepath="$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarrosA2/PrjLavaCarrosA2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarrosA3/PrjLavaCarrosA3.iml" filepath="$PROJECT_DIR$/Programação orientada a objetos/PrjLavaCarrosA3/PrjLavaCarrosA3.iml" />
+    </modules>
+  </component>
+</project>

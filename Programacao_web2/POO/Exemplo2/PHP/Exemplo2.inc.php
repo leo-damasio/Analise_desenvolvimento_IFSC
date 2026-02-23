@@ -28,7 +28,7 @@ class curso
         }
         else
         {
-            $mensagem = "curso de longa duração"
+            $mensagem = "curso de longa duração";
         }
         return $mensagem;
     }

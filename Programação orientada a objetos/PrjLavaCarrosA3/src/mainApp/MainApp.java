@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MainApp
 {
-    public static void main(String[] args)
+    static void main()
     {
         String marca, descricao, placa, combustivel, categoria;
         int potencia;

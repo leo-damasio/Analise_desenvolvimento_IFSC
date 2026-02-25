@@ -100,7 +100,7 @@ public class MainApp
         System.out.println("Modelo......: " + veiculo.getModelo().getDescricao());
         System.out.println("Marca.......: " + veiculo.getModelo().getMarca().getNome());
         System.out.println("Motor.......: cv " + veiculo.getModelo().getMotor().getPotencia());
-        System.out.println("Combustivel.: " + veiculo.getModelo().getMotor().getTipoCombustivel());
+        System.out.println("Combustível.: " + veiculo.getModelo().getMotor().getTipoCombustivel());
 
     }
 

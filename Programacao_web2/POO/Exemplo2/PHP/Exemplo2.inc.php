@@ -33,6 +33,12 @@ class curso
         return $mensagem;
     }
 
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+
 
 
 }

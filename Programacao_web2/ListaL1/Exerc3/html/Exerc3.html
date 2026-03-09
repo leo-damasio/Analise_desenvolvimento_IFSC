@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro exercicio pratico</title>
+    <link href="../css/formata-pagina.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Atividade Pratica de POO em php</h1>
+
+    <form action="../php/Exerc3.php" method="post">
+        <fieldset>
+            <legend>Cadastro de produtos de informatica</legend>
+
+            <label>Nome do item: </label><br>
+            <input type="text" name="nome" id="nome" autofocus placeholder="Nome do item">
+            <br>
+            <label>Classifição: </label><br>
+            <input type="radio" name="class" id="hard" value="Hardware" checked><label for="hard">Hardware</label>
+            <input type="radio" name="class" id="soft" value="Software"><label for="soft">Software</label>
+            <br>
+            <label>Preço do item: </label><br>
+            <input type="number" name="price" id="price" min="0" step="0.01" placeholder="Preço do item">
+
+            <button>Cadastrar produto</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

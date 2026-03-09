@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro exercicio pratico</title>
+    <link href="../css/formata-pagina.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Atividade Pratica de POO em php</h1>
+
+    <form action="../php/Atividade1.php" method="post">
+        <fieldset>
+            <legend>Livrarias AAA - dados cadastrais do livro</legend>
+            <label for="title">Título: </label><br>
+            <input type="text" name="title" id="title" autofocus placeholder="Título do livro">
+            <br>
+            <label for="creator">Autor do livro: </label><br>
+            <input type="text" name="creator" id="creator" placeholder="Autor do livro">
+            <br>
+            <label for="isbn">ISBN do livro: </label><br>
+            <input type="text" name="isbn" id="isbn" placeholder="ISBN do livro">
+            <br>
+            <label for="price">Preço de venda: </label><br>
+            <input type="number" name="price" id="price" min="0" step="0.01" placeholder="Preço de venda">
+            <br>
+            <label for="desc">Percentual de desconto: </label><br>
+            <input type="number" name="desc" id="desc" min="0" max="100" step="0.1" placeholder="Desconto"><label>%</label>
+
+            <button>Cadastrar livro e Valor de venda</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

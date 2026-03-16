@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco de dados em php</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+</head>
+<body>
+<h1>Registro de alunos</h1>
+
+<form action="../php/Atv1.php" method="post">
+    <fieldset>
+        <legend>Escola AAA - Casdastro de Alunos</legend>
+
+        <label>Nome do Aluno: </label>
+        <input type="text" name="nome"><br><br>
+
+        <label>Matricula do Aluno: </label>
+        <input type="text" name="matricula" autofocus><br><br>
+
+        <label>Média final de PRW2:</label>
+        <input type="number" name="media" min="0" max="10" step="0.1"><br><br>
+
+        <button name="cadastrar">Cadastrar Aluno</button>
+
+        <button name="tabular">Mostrar dados dos alunos cadastrados</button>
+
+        <button name="contar">Mostrar numero de alunos aprovados</button>
+
+    </fieldset>
+</form>
+
 <?php
+
+require_once "criar-classe-banco-de-dados.inc.php";
+//require_once "criar-classe-alunos.inc.php";
+
+$objBanco = new BancoDeDados("localhost", "root", "" , "CTDS", "Alunos");
+
+$objBanco->criarConexao();
+
+if(isset($_POST["cadastrar"]))
+{
+
+}
+if(isset($_POST["tabular"]))
+{
+
+}
+if(isset($_POST["contar"]))
+{
+
+}
+
+?>
+
+</body>
+</html>
